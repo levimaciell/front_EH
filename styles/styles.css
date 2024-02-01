@@ -13,7 +13,6 @@ body {
     background-color: black;
     display: flex;
     flex-direction: column;
-    gap: 1200px;
 }
 
 .cabecalho__nav{
@@ -38,3 +37,16 @@ body {
     font-weight: 200;
     text-decoration: none;
 }
+
+.cabecalho__nav__link:hover{
+    font-size: 1.35rem;
+    color: var(--cor-titulo);
+}
+
+
+.conteudo{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+}
+
